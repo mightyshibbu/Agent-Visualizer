@@ -1,0 +1,501 @@
+user_id,age,gender,location,interests,ad_id,ad_category,ad_platform,ad_type,impressions,clicks,conversion,time_spent_on_ad,day_of_week,device_type,engagement_score
+U0001,58,M,USA,Food,A0001,Sportswear,Facebook,Image,3,0,0,3.38,Friday,Mobile,0.02
+U0002,55,F,USA,Tech,A0002,Electronics,Facebook,Image,9,9,1,6.77,Saturday,Tablet,0.93
+U0003,52,F,UK,Gaming,A0003,Luggage,Instagram,Image,13,12,1,13.26,Wednesday,Mobile,0.93
+U0004,31,F,USA,Tech,A0004,Gadgets,Facebook,Video,14,5,0,24.41,Saturday,Desktop,0.28
+U0005,52,M,India,Tech,A0005,Luggage,Instagram,Carousel,10,5,0,21.43,Monday,Tablet,0.35
+U0006,32,F,USA,Fashion,A0006,Electronics,Instagram,Video,8,5,1,11.3,Saturday,Desktop,0.77
+U0007,59,M,Germany,Food,A0007,Apparel,Facebook,Image,8,6,1,27.84,Saturday,Tablet,0.88
+U0008,32,Other,Canada,Tech,A0008,Apparel,Facebook,Video,7,4,1,27.48,Friday,Tablet,0.79
+U0009,38,M,Australia,Gaming,A0009,Gadgets,Instagram,Image,5,1,1,17.28,Wednesday,Tablet,0.59
+U0010,55,F,Germany,Gaming,A0010,Sportswear,Facebook,Image,9,7,1,2.37,Monday,Mobile,0.8
+U0011,58,M,Australia,Gaming,A0011,Luggage,Facebook,Video,7,7,0,29.16,Sunday,Mobile,0.6
+U0012,25,Other,Germany,Fitness,A0012,Food & Beverage,Instagram,Image,5,3,1,1.09,Saturday,Tablet,0.71
+U0013,34,Other,UK,Travel,A0013,Electronics,Instagram,Carousel,9,9,1,11.84,Tuesday,Tablet,0.96
+U0014,51,M,Germany,Fitness,A0014,Gadgets,Facebook,Image,15,11,0,25.12,Wednesday,Mobile,0.47
+U0015,21,M,Germany,Tech,A0015,Electronics,Instagram,Image,13,8,0,4.72,Thursday,Tablet,0.33
+U0016,28,F,Germany,Travel,A0016,Gadgets,Facebook,Carousel,13,11,0,21.68,Thursday,Tablet,0.52
+U0017,59,F,India,Travel,A0017,Gadgets,Facebook,Image,4,0,0,1.69,Friday,Tablet,0.01
+U0018,32,Other,UK,Tech,A0018,Electronics,Facebook,Image,2,0,0,4.3,Monday,Tablet,0.02
+U0019,33,F,Australia,Gaming,A0019,Apparel,Facebook,Carousel,15,15,1,14.72,Thursday,Mobile,0.97
+U0020,24,M,Australia,Gaming,A0020,Sportswear,Instagram,Video,8,0,0,3.37,Saturday,Mobile,0.02
+U0021,21,F,Australia,Fitness,A0021,Electronics,Facebook,Image,4,4,1,13.23,Wednesday,Desktop,0.97
+U0022,33,M,India,Travel,A0022,Electronics,Facebook,Carousel,9,0,0,4.84,Sunday,Mobile,0.02
+U0023,28,F,India,Gaming,A0023,Apparel,Instagram,Image,3,3,1,12.32,Sunday,Desktop,0.96
+U0024,36,F,Australia,Food,A0024,Luggage,Instagram,Image,4,2,1,2.7,Saturday,Tablet,0.66
+U0025,21,Other,Canada,Tech,A0025,Electronics,Instagram,Carousel,15,5,1,15.73,Sunday,Mobile,0.65
+U0026,22,Other,USA,Food,A0026,Apparel,Instagram,Image,15,7,0,2.15,Monday,Desktop,0.24
+U0027,60,Other,Germany,Travel,A0027,Sportswear,Instagram,Image,11,11,1,8.7,Tuesday,Tablet,0.94
+U0028,59,F,India,Fitness,A0028,Electronics,Facebook,Video,10,9,0,3.12,Tuesday,Tablet,0.47
+U0029,34,M,Canada,Tech,A0029,Apparel,Instagram,Video,3,3,0,21.4,Friday,Tablet,0.6
+U0030,51,M,Australia,Travel,A0030,Sportswear,Facebook,Image,5,0,0,4.45,Saturday,Tablet,0.02
+U0031,27,F,Canada,Travel,A0031,Apparel,Instagram,Image,11,10,0,15.66,Wednesday,Mobile,0.53
+U0032,23,Other,India,Fitness,A0032,Electronics,Facebook,Video,13,2,0,8.6,Saturday,Desktop,0.12
+U0033,53,Other,India,Travel,A0033,Electronics,Facebook,Image,15,4,0,25.2,Friday,Tablet,0.23
+U0034,27,F,UK,Tech,A0034,Sportswear,Instagram,Image,15,11,1,8.24,Monday,Desktop,0.81
+U0035,53,F,Germany,Food,A0035,Apparel,Facebook,Image,13,12,1,12.96,Tuesday,Tablet,0.93
+U0036,39,F,Australia,Food,A0036,Apparel,Instagram,Image,13,11,1,26.29,Sunday,Desktop,0.92
+U0037,32,M,India,Fitness,A0037,Sportswear,Facebook,Image,1,0,0,1.99,Wednesday,Mobile,0.01
+U0038,35,F,Australia,Travel,A0038,Gadgets,Instagram,Image,2,1,1,28.91,Wednesday,Mobile,0.75
+U0039,24,Other,India,Fitness,A0039,Food & Beverage,Instagram,Video,10,8,1,27.09,Tuesday,Desktop,0.9
+U0040,20,Other,India,Tech,A0040,Luggage,Facebook,Video,7,1,0,27.7,Friday,Desktop,0.17
+U0041,60,M,Australia,Fitness,A0041,Luggage,Instagram,Carousel,7,5,1,9.57,Tuesday,Mobile,0.8
+U0042,44,Other,India,Food,A0042,Food & Beverage,Facebook,Carousel,10,4,1,25.18,Wednesday,Desktop,0.7
+U0043,31,F,Germany,Travel,A0043,Food & Beverage,Instagram,Video,8,7,0,15.82,Sunday,Tablet,0.52
+U0044,28,Other,USA,Fitness,A0044,Luggage,Instagram,Image,14,12,1,10.0,Sunday,Mobile,0.88
+U0045,27,M,USA,Fashion,A0045,Gadgets,Facebook,Video,7,3,0,12.14,Thursday,Mobile,0.27
+U0046,27,Other,Australia,Tech,A0046,Electronics,Instagram,Image,3,3,1,8.23,Sunday,Mobile,0.94
+U0047,47,M,India,Food,A0047,Luggage,Instagram,Video,10,8,1,27.3,Thursday,Mobile,0.9
+U0048,48,F,Canada,Fashion,A0048,Food & Beverage,Instagram,Carousel,8,3,1,3.25,Wednesday,Mobile,0.6
+U0049,35,F,Canada,Travel,A0049,Electronics,Facebook,Image,4,3,0,21.49,Monday,Desktop,0.47
+U0050,44,F,Germany,Gaming,A0050,Gadgets,Facebook,Image,14,6,1,23.32,Saturday,Mobile,0.71
+U0051,54,F,India,Tech,A0001,Sportswear,Instagram,Video,14,14,0,13.15,Saturday,Tablet,0.57
+U0052,52,Other,UK,Gaming,A0002,Apparel,Instagram,Video,8,0,0,1.94,Saturday,Tablet,0.01
+U0053,43,Other,UK,Gaming,A0003,Apparel,Facebook,Video,10,9,0,3.43,Thursday,Mobile,0.47
+U0054,47,M,USA,Fitness,A0004,Gadgets,Instagram,Image,8,5,1,26.51,Wednesday,Desktop,0.81
+U0055,34,M,India,Tech,A0005,Food & Beverage,Facebook,Video,4,0,0,3.91,Saturday,Mobile,0.02
+U0056,19,M,UK,Tech,A0006,Luggage,Facebook,Image,3,3,0,17.36,Tuesday,Desktop,0.59
+U0057,34,F,UK,Travel,A0007,Luggage,Facebook,Image,5,0,0,2.89,Wednesday,Tablet,0.01
+U0058,42,F,Australia,Fashion,A0008,Electronics,Facebook,Image,12,12,1,20.84,Sunday,Mobile,1.0
+U0059,54,M,Canada,Travel,A0009,Gadgets,Instagram,Image,9,5,1,13.18,Thursday,Mobile,0.74
+U0060,45,F,Australia,Gaming,A0010,Food & Beverage,Facebook,Video,3,2,0,27.67,Sunday,Desktop,0.43
+U0061,47,F,Australia,Travel,A0011,Sportswear,Instagram,Image,14,14,1,26.57,Tuesday,Desktop,1.0
+U0062,54,Other,Australia,Gaming,A0012,Sportswear,Facebook,Video,14,5,1,7.15,Sunday,Desktop,0.61
+U0063,39,F,Germany,Food,A0013,Sportswear,Facebook,Carousel,4,0,0,1.21,Thursday,Desktop,0.01
+U0064,53,M,Australia,Gaming,A0014,Food & Beverage,Instagram,Video,13,0,0,0.47,Tuesday,Desktop,0.0
+U0065,33,F,Australia,Travel,A0015,Sportswear,Instagram,Carousel,9,5,1,22.63,Wednesday,Desktop,0.78
+U0066,47,F,Canada,Fitness,A0016,Apparel,Facebook,Carousel,4,2,1,16.54,Sunday,Tablet,0.73
+U0067,29,M,UK,Food,A0017,Gadgets,Instagram,Carousel,10,8,0,29.43,Sunday,Mobile,0.5
+U0068,36,M,Canada,Fashion,A0018,Sportswear,Facebook,Carousel,9,2,1,29.25,Friday,Desktop,0.61
+U0069,26,Other,India,Tech,A0019,Electronics,Instagram,Video,8,7,1,29.0,Wednesday,Desktop,0.94
+U0070,25,M,India,Gaming,A0020,Electronics,Facebook,Image,3,2,1,8.2,Friday,Desktop,0.77
+U0071,56,Other,Germany,Fashion,A0021,Luggage,Instagram,Video,15,14,1,18.07,Thursday,Desktop,0.96
+U0072,54,Other,USA,Travel,A0022,Food & Beverage,Facebook,Image,11,3,1,3.35,Tuesday,Mobile,0.55
+U0073,53,M,UK,Tech,A0023,Gadgets,Instagram,Carousel,10,7,1,7.71,Saturday,Desktop,0.79
+U0074,47,M,Australia,Fashion,A0024,Sportswear,Facebook,Video,2,2,1,5.32,Wednesday,Mobile,0.93
+U0075,22,M,UK,Fitness,A0025,Luggage,Instagram,Video,2,1,0,21.29,Wednesday,Tablet,0.35
+U0076,52,F,India,Tech,A0026,Luggage,Facebook,Video,12,5,0,1.75,Tuesday,Tablet,0.22
+U0077,54,Other,USA,Food,A0027,Sportswear,Facebook,Image,8,8,0,27.57,Tuesday,Tablet,0.6
+U0078,45,Other,India,Tech,A0028,Gadgets,Instagram,Video,6,2,0,25.87,Wednesday,Desktop,0.27
+U0079,49,F,Australia,Gaming,A0029,Luggage,Facebook,Video,2,1,1,4.36,Sunday,Desktop,0.67
+U0080,50,M,Australia,Travel,A0030,Gadgets,Instagram,Image,4,4,1,22.94,Saturday,Desktop,1.0
+U0081,21,M,Canada,Travel,A0031,Apparel,Instagram,Video,15,15,1,29.22,Friday,Mobile,1.0
+U0082,28,F,Germany,Tech,A0032,Luggage,Instagram,Image,4,0,0,2.31,Monday,Tablet,0.01
+U0083,27,F,Australia,Fitness,A0033,Luggage,Instagram,Video,14,7,0,8.07,Friday,Mobile,0.29
+U0084,42,M,Germany,Travel,A0034,Food & Beverage,Facebook,Image,5,3,1,23.84,Wednesday,Mobile,0.8
+U0085,36,Other,Canada,Travel,A0035,Luggage,Instagram,Image,8,8,1,10.64,Sunday,Tablet,0.95
+U0086,42,F,Canada,Fashion,A0036,Food & Beverage,Facebook,Carousel,7,3,0,12.91,Wednesday,Tablet,0.28
+U0087,48,Other,India,Gaming,A0037,Food & Beverage,Facebook,Video,1,0,0,2.51,Friday,Desktop,0.01
+U0088,24,F,USA,Travel,A0038,Gadgets,Facebook,Carousel,3,3,0,29.13,Monday,Desktop,0.6
+U0089,34,F,Germany,Food,A0039,Gadgets,Facebook,Video,14,10,0,12.02,Wednesday,Tablet,0.42
+U0090,49,Other,USA,Travel,A0040,Electronics,Facebook,Carousel,11,4,0,22.66,Thursday,Mobile,0.28
+U0091,58,Other,USA,Gaming,A0041,Apparel,Instagram,Image,1,1,0,9.51,Wednesday,Desktop,0.55
+U0092,27,M,Germany,Gaming,A0042,Luggage,Facebook,Image,3,0,0,3.05,Thursday,Tablet,0.02
+U0093,33,F,Germany,Fashion,A0043,Apparel,Instagram,Carousel,5,3,1,1.27,Sunday,Desktop,0.71
+U0094,36,Other,Germany,Fashion,A0044,Electronics,Instagram,Video,10,4,0,13.3,Wednesday,Desktop,0.27
+U0095,37,M,India,Gaming,A0045,Electronics,Facebook,Video,10,5,0,29.79,Wednesday,Mobile,0.35
+U0096,60,F,Canada,Tech,A0046,Luggage,Facebook,Carousel,12,7,0,27.19,Sunday,Mobile,0.39
+U0097,56,F,UK,Food,A0047,Apparel,Instagram,Carousel,13,11,0,20.74,Tuesday,Tablet,0.52
+U0098,24,Other,Australia,Tech,A0048,Sportswear,Instagram,Image,10,5,0,3.61,Wednesday,Desktop,0.27
+U0099,44,M,UK,Fashion,A0049,Luggage,Instagram,Carousel,9,4,0,8.45,Sunday,Desktop,0.26
+U0100,36,Other,Canada,Tech,A0050,Gadgets,Facebook,Image,13,3,0,22.0,Thursday,Tablet,0.22
+U0101,41,M,India,Tech,A0001,Sportswear,Facebook,Video,6,5,0,8.6,Thursday,Tablet,0.46
+U0102,41,M,Australia,Fashion,A0002,Gadgets,Facebook,Carousel,15,10,0,7.42,Monday,Tablet,0.37
+U0103,47,Other,Canada,Food,A0003,Gadgets,Facebook,Image,1,0,0,1.52,Thursday,Mobile,0.01
+U0104,24,M,Germany,Fashion,A0004,Gadgets,Instagram,Video,11,11,0,16.67,Friday,Tablet,0.58
+U0105,27,F,Australia,Tech,A0005,Gadgets,Instagram,Video,1,1,1,13.9,Tuesday,Desktop,0.97
+U0106,24,Other,Canada,Travel,A0006,Food & Beverage,Instagram,Image,7,4,1,4.54,Sunday,Desktop,0.71
+U0107,23,Other,UK,Food,A0007,Food & Beverage,Facebook,Image,13,5,1,4.65,Friday,Mobile,0.62
+U0108,22,Other,UK,Travel,A0008,Apparel,Facebook,Video,13,2,0,18.28,Wednesday,Mobile,0.17
+U0109,26,Other,Canada,Fashion,A0009,Electronics,Facebook,Image,1,1,0,7.9,Wednesday,Mobile,0.54
+U0110,29,F,USA,Fashion,A0010,Food & Beverage,Instagram,Carousel,2,2,1,14.0,Wednesday,Tablet,0.97
+U0111,55,M,India,Travel,A0011,Apparel,Facebook,Carousel,13,13,0,9.75,Saturday,Mobile,0.55
+U0112,21,F,India,Gaming,A0012,Food & Beverage,Facebook,Video,12,7,1,3.34,Friday,Mobile,0.71
+U0113,22,M,Canada,Travel,A0013,Food & Beverage,Instagram,Video,10,8,1,15.66,Thursday,Mobile,0.88
+U0114,25,Other,Australia,Travel,A0014,Food & Beverage,Facebook,Video,8,3,1,25.0,Thursday,Desktop,0.69
+U0115,24,F,India,Fitness,A0015,Food & Beverage,Instagram,Video,3,3,1,25.12,Monday,Desktop,1.0
+U0116,24,Other,Australia,Fitness,A0016,Apparel,Facebook,Carousel,9,8,1,4.54,Wednesday,Tablet,0.87
+U0117,45,Other,USA,Fitness,A0017,Luggage,Instagram,Video,2,2,0,5.49,Thursday,Mobile,0.53
+U0118,24,F,Germany,Fitness,A0018,Electronics,Instagram,Carousel,4,3,0,29.26,Sunday,Tablet,0.47
+U0119,57,Other,Australia,Travel,A0019,Electronics,Instagram,Image,3,2,0,9.96,Wednesday,Desktop,0.38
+U0120,18,M,UK,Travel,A0020,Food & Beverage,Instagram,Image,3,0,0,0.46,Friday,Mobile,0.0
+U0121,42,F,India,Fitness,A0021,Apparel,Instagram,Video,12,5,0,17.46,Monday,Mobile,0.3
+U0122,27,M,Germany,Tech,A0022,Food & Beverage,Facebook,Video,8,6,1,13.82,Wednesday,Mobile,0.84
+U0123,50,M,Canada,Gaming,A0023,Electronics,Instagram,Carousel,11,9,1,20.35,Monday,Mobile,0.91
+U0124,43,Other,USA,Tech,A0024,Apparel,Instagram,Image,13,2,0,9.39,Monday,Mobile,0.12
+U0125,49,Other,India,Fashion,A0025,Apparel,Instagram,Carousel,12,3,0,25.17,Sunday,Desktop,0.23
+U0126,22,F,Australia,Tech,A0026,Gadgets,Facebook,Video,15,2,0,17.7,Friday,Desktop,0.16
+U0127,58,F,Canada,Tech,A0027,Gadgets,Facebook,Video,3,3,0,27.67,Monday,Desktop,0.6
+U0128,24,M,India,Travel,A0028,Gadgets,Facebook,Video,14,4,0,7.43,Sunday,Mobile,0.18
+U0129,22,Other,Australia,Tech,A0029,Luggage,Facebook,Video,6,5,0,19.72,Tuesday,Mobile,0.52
+U0130,24,M,Canada,Fashion,A0030,Apparel,Facebook,Carousel,2,0,0,4.76,Saturday,Desktop,0.02
+U0131,47,Other,Germany,Gaming,A0031,Food & Beverage,Instagram,Carousel,6,1,1,14.6,Saturday,Desktop,0.56
+U0132,35,Other,USA,Fitness,A0032,Luggage,Facebook,Video,8,7,1,11.69,Wednesday,Mobile,0.9
+U0133,59,M,Germany,Travel,A0033,Luggage,Instagram,Video,10,8,0,22.43,Monday,Desktop,0.5
+U0134,54,Other,UK,Fitness,A0034,Luggage,Instagram,Carousel,3,0,0,2.25,Sunday,Desktop,0.01
+U0135,23,Other,Australia,Fashion,A0035,Electronics,Facebook,Carousel,8,7,0,18.68,Wednesday,Desktop,0.53
+U0136,36,F,India,Fitness,A0036,Food & Beverage,Facebook,Carousel,11,5,1,3.74,Saturday,Desktop,0.65
+U0137,36,F,Australia,Food,A0037,Luggage,Facebook,Video,2,2,0,27.59,Wednesday,Tablet,0.6
+U0138,60,F,UK,Travel,A0038,Food & Beverage,Facebook,Video,9,6,0,10.53,Tuesday,Tablet,0.39
+U0139,51,M,Australia,Food,A0039,Gadgets,Instagram,Image,6,2,1,7.21,Sunday,Desktop,0.6
+U0140,30,M,UK,Fashion,A0040,Electronics,Instagram,Image,9,8,0,26.63,Monday,Tablet,0.54
+U0141,39,Other,UK,Travel,A0041,Gadgets,Facebook,Image,3,1,0,2.27,Wednesday,Tablet,0.18
+U0142,33,F,Germany,Fitness,A0042,Food & Beverage,Instagram,Image,9,3,1,24.45,Thursday,Mobile,0.67
+U0143,41,Other,Germany,Gaming,A0043,Gadgets,Instagram,Video,9,8,1,5.7,Tuesday,Tablet,0.87
+U0144,26,F,USA,Food,A0044,Gadgets,Instagram,Carousel,15,3,0,15.96,Monday,Desktop,0.18
+U0145,23,M,Canada,Gaming,A0045,Luggage,Facebook,Video,2,0,0,4.08,Wednesday,Mobile,0.02
+U0146,44,M,India,Travel,A0046,Sportswear,Facebook,Video,2,1,1,10.24,Monday,Tablet,0.7
+U0147,59,F,UK,Fashion,A0047,Electronics,Instagram,Video,12,2,0,14.6,Friday,Mobile,0.16
+U0148,23,M,Canada,Fashion,A0048,Apparel,Instagram,Image,13,4,1,4.53,Tuesday,Desktop,0.58
+U0149,58,Other,India,Tech,A0049,Electronics,Instagram,Carousel,9,0,0,3.16,Friday,Mobile,0.02
+U0150,27,F,India,Tech,A0050,Luggage,Instagram,Image,10,6,1,20.38,Friday,Desktop,0.8
+U0151,22,Other,Germany,Travel,A0001,Luggage,Facebook,Video,14,7,1,12.22,Wednesday,Desktop,0.71
+U0152,19,F,USA,Fitness,A0002,Apparel,Facebook,Carousel,12,12,1,2.29,Friday,Desktop,0.91
+U0153,59,M,Australia,Gaming,A0003,Food & Beverage,Instagram,Carousel,3,1,1,23.51,Thursday,Mobile,0.67
+U0154,36,M,USA,Fashion,A0004,Electronics,Instagram,Video,9,6,0,16.75,Wednesday,Mobile,0.42
+U0155,59,M,Canada,Fitness,A0005,Electronics,Instagram,Video,2,1,1,12.6,Thursday,Desktop,0.71
+U0156,39,M,India,Food,A0006,Gadgets,Instagram,Carousel,5,0,0,3.64,Monday,Desktop,0.02
+U0157,56,M,Germany,Fitness,A0007,Sportswear,Facebook,Image,6,5,1,13.93,Saturday,Desktop,0.89
+U0158,28,Other,India,Fitness,A0008,Gadgets,Facebook,Carousel,14,14,1,29.95,Wednesday,Tablet,1.0
+U0159,21,M,Australia,Food,A0009,Gadgets,Instagram,Carousel,13,11,0,28.63,Tuesday,Tablet,0.52
+U0160,46,M,UK,Tech,A0010,Apparel,Instagram,Video,7,0,0,3.03,Saturday,Desktop,0.02
+U0161,41,F,India,Tech,A0011,Luggage,Facebook,Carousel,6,3,1,9.08,Monday,Mobile,0.7
+U0162,29,F,Germany,Gaming,A0012,Luggage,Facebook,Video,13,4,0,7.22,Friday,Desktop,0.19
+U0163,49,M,USA,Fashion,A0013,Electronics,Instagram,Image,15,14,0,24.5,Sunday,Desktop,0.57
+U0164,60,F,Australia,Tech,A0014,Luggage,Instagram,Video,14,2,0,27.89,Saturday,Mobile,0.17
+U0165,41,Other,UK,Tech,A0015,Apparel,Facebook,Image,13,7,1,17.07,Wednesday,Desktop,0.75
+U0166,53,M,Germany,Tech,A0016,Electronics,Instagram,Video,12,11,1,12.91,Thursday,Tablet,0.92
+U0167,22,M,Canada,Food,A0017,Electronics,Instagram,Video,11,8,1,26.46,Sunday,Tablet,0.86
+U0168,58,Other,UK,Fashion,A0018,Gadgets,Facebook,Image,9,2,1,5.7,Saturday,Mobile,0.54
+U0169,40,Other,Canada,Tech,A0019,Sportswear,Facebook,Carousel,9,4,1,9.78,Friday,Mobile,0.67
+U0170,50,Other,UK,Travel,A0020,Luggage,Facebook,Image,11,9,0,18.55,Sunday,Tablet,0.5
+U0171,20,M,USA,Tech,A0021,Food & Beverage,Instagram,Carousel,4,4,1,19.53,Thursday,Tablet,1.0
+U0172,52,F,Australia,Fitness,A0022,Gadgets,Facebook,Carousel,7,4,1,20.97,Tuesday,Desktop,0.79
+U0173,44,F,India,Fashion,A0023,Sportswear,Facebook,Video,14,11,1,29.65,Wednesday,Desktop,0.89
+U0174,26,F,Germany,Travel,A0024,Electronics,Instagram,Image,8,1,1,8.19,Monday,Mobile,0.5
+U0175,36,F,Germany,Gaming,A0025,Apparel,Facebook,Video,15,10,1,5.62,Friday,Desktop,0.76
+U0176,49,F,India,Tech,A0026,Electronics,Instagram,Carousel,8,3,1,11.23,Monday,Desktop,0.64
+U0177,49,Other,Australia,Food,A0027,Gadgets,Instagram,Carousel,1,0,0,2.15,Wednesday,Tablet,0.01
+U0178,41,F,Canada,Tech,A0028,Gadgets,Facebook,Carousel,9,3,1,9.37,Thursday,Tablet,0.61
+U0179,46,Other,Canada,Travel,A0029,Food & Beverage,Facebook,Image,2,1,1,29.62,Friday,Desktop,0.75
+U0180,27,M,Germany,Travel,A0030,Gadgets,Facebook,Image,1,0,0,3.57,Sunday,Desktop,0.02
+U0181,51,F,UK,Travel,A0031,Luggage,Facebook,Video,15,10,1,29.73,Saturday,Desktop,0.83
+U0182,55,F,Germany,Travel,A0032,Luggage,Instagram,Carousel,10,4,1,1.48,Wednesday,Tablet,0.61
+U0183,25,F,Germany,Fitness,A0033,Food & Beverage,Facebook,Carousel,8,4,0,23.7,Sunday,Tablet,0.35
+U0184,54,M,Australia,Tech,A0034,Luggage,Instagram,Image,9,9,0,12.03,Sunday,Tablet,0.56
+U0185,33,M,Germany,Food,A0035,Electronics,Facebook,Image,8,5,1,12.98,Tuesday,Desktop,0.78
+U0186,50,Other,India,Food,A0036,Food & Beverage,Facebook,Carousel,3,1,0,29.95,Thursday,Tablet,0.27
+U0187,42,F,UK,Gaming,A0037,Luggage,Instagram,Carousel,6,5,0,21.91,Saturday,Tablet,0.52
+U0188,34,Other,India,Fashion,A0038,Apparel,Instagram,Carousel,5,1,0,29.49,Sunday,Desktop,0.2
+U0189,31,Other,Australia,Gaming,A0039,Sportswear,Instagram,Video,9,4,1,17.63,Friday,Desktop,0.71
+U0190,43,F,UK,Fitness,A0040,Electronics,Instagram,Carousel,2,1,0,20.02,Saturday,Desktop,0.35
+U0191,31,M,Germany,Fitness,A0041,Luggage,Instagram,Image,2,2,0,7.94,Monday,Tablet,0.54
+U0192,51,M,Australia,Fashion,A0042,Electronics,Facebook,Video,6,5,1,20.75,Tuesday,Mobile,0.92
+U0193,53,M,India,Food,A0043,Gadgets,Instagram,Carousel,4,2,1,19.73,Sunday,Mobile,0.75
+U0194,59,Other,UK,Travel,A0044,Food & Beverage,Facebook,Image,7,2,0,2.05,Sunday,Desktop,0.15
+U0195,49,M,Australia,Fitness,A0045,Electronics,Facebook,Video,10,9,1,29.51,Wednesday,Desktop,0.95
+U0196,59,Other,Germany,Gaming,A0046,Apparel,Instagram,Video,4,0,0,1.65,Saturday,Desktop,0.01
+U0197,59,F,Australia,Fashion,A0047,Electronics,Instagram,Video,10,10,0,6.09,Sunday,Tablet,0.53
+U0198,43,F,Germany,Fitness,A0048,Electronics,Instagram,Carousel,2,0,0,4.91,Thursday,Desktop,0.02
+U0199,33,M,Canada,Gaming,A0049,Apparel,Instagram,Video,6,2,0,17.61,Wednesday,Tablet,0.25
+U0200,41,Other,UK,Tech,A0050,Food & Beverage,Facebook,Video,5,1,1,15.57,Saturday,Desktop,0.58
+U0201,25,Other,Canada,Fitness,A0001,Luggage,Facebook,Image,3,3,1,22.68,Friday,Desktop,1.0
+U0202,44,Other,Germany,Gaming,A0002,Luggage,Facebook,Image,11,9,0,3.37,Thursday,Tablet,0.43
+U0203,41,M,Germany,Tech,A0003,Electronics,Facebook,Carousel,9,2,1,25.78,Thursday,Mobile,0.61
+U0204,31,Other,Germany,Gaming,A0004,Electronics,Instagram,Image,8,2,0,14.25,Monday,Tablet,0.2
+U0205,47,Other,Canada,Food,A0005,Electronics,Instagram,Video,14,0,0,3.73,Friday,Mobile,0.02
+U0206,20,F,Canada,Food,A0006,Electronics,Facebook,Image,15,15,1,12.86,Sunday,Mobile,0.96
+U0207,59,Other,Australia,Gaming,A0007,Sportswear,Instagram,Video,14,14,0,11.89,Saturday,Tablet,0.56
+U0208,52,M,Australia,Fitness,A0008,Electronics,Facebook,Carousel,7,2,0,7.46,Monday,Mobile,0.18
+U0209,37,F,Australia,Food,A0009,Luggage,Instagram,Carousel,7,3,1,11.04,Wednesday,Mobile,0.67
+U0210,25,M,Australia,Gaming,A0010,Luggage,Facebook,Image,4,0,0,0.5,Monday,Desktop,0.0
+U0211,56,Other,Australia,Tech,A0011,Apparel,Facebook,Video,8,3,0,22.88,Sunday,Mobile,0.29
+U0212,26,Other,Canada,Fashion,A0012,Food & Beverage,Instagram,Carousel,10,10,0,7.87,Tuesday,Tablet,0.54
+U0213,51,M,India,Fitness,A0013,Sportswear,Facebook,Carousel,10,2,0,13.39,Thursday,Mobile,0.17
+U0214,40,Other,Australia,Gaming,A0014,Luggage,Instagram,Carousel,7,6,1,11.92,Sunday,Tablet,0.89
+U0215,48,M,UK,Fitness,A0015,Food & Beverage,Facebook,Video,15,1,0,29.07,Friday,Tablet,0.13
+U0216,26,F,UK,Fitness,A0016,Apparel,Instagram,Carousel,2,1,0,3.68,Saturday,Mobile,0.27
+U0217,21,F,India,Food,A0017,Luggage,Facebook,Image,4,4,0,17.21,Thursday,Mobile,0.59
+U0218,39,F,USA,Fashion,A0018,Apparel,Facebook,Carousel,13,7,0,21.17,Saturday,Mobile,0.37
+U0219,43,M,Germany,Fitness,A0019,Sportswear,Instagram,Video,9,5,1,11.43,Thursday,Desktop,0.73
+U0220,24,Other,India,Fitness,A0020,Apparel,Instagram,Video,7,0,0,2.81,Tuesday,Tablet,0.01
+U0221,27,M,Canada,Travel,A0021,Luggage,Instagram,Video,3,1,1,12.02,Sunday,Mobile,0.63
+U0222,49,Other,Australia,Food,A0022,Sportswear,Instagram,Video,12,10,0,14.36,Saturday,Desktop,0.49
+U0223,28,M,Australia,Travel,A0023,Gadgets,Facebook,Carousel,11,0,0,2.62,Sunday,Mobile,0.01
+U0224,60,M,USA,Gaming,A0024,Apparel,Facebook,Image,12,2,1,15.67,Wednesday,Mobile,0.56
+U0225,57,Other,Australia,Travel,A0025,Gadgets,Instagram,Image,1,1,1,16.35,Wednesday,Tablet,0.98
+U0226,36,M,Germany,Food,A0026,Food & Beverage,Instagram,Image,2,0,0,2.62,Tuesday,Mobile,0.01
+U0227,57,Other,Canada,Fitness,A0027,Sportswear,Instagram,Image,6,3,1,8.05,Saturday,Mobile,0.69
+U0228,37,Other,USA,Food,A0028,Food & Beverage,Facebook,Image,7,6,1,14.8,Saturday,Mobile,0.9
+U0229,28,M,India,Gaming,A0029,Food & Beverage,Instagram,Carousel,14,1,0,27.66,Tuesday,Mobile,0.14
+U0230,54,F,Canada,Tech,A0030,Electronics,Instagram,Carousel,10,10,1,27.93,Wednesday,Mobile,1.0
+U0231,31,Other,UK,Food,A0031,Gadgets,Facebook,Video,3,1,0,25.63,Saturday,Tablet,0.27
+U0232,39,F,Australia,Fashion,A0032,Food & Beverage,Facebook,Carousel,12,5,1,13.68,Sunday,Mobile,0.68
+U0233,39,Other,Germany,Travel,A0033,Gadgets,Instagram,Image,11,4,0,14.07,Tuesday,Desktop,0.25
+U0234,53,F,India,Fashion,A0034,Food & Beverage,Instagram,Image,13,9,1,8.15,Monday,Mobile,0.79
+U0235,35,M,India,Food,A0035,Food & Beverage,Facebook,Carousel,7,5,1,3.65,Wednesday,Desktop,0.78
+U0236,41,F,USA,Fashion,A0036,Electronics,Facebook,Video,8,8,0,12.83,Monday,Mobile,0.56
+U0237,40,Other,USA,Travel,A0037,Luggage,Instagram,Video,1,1,1,23.6,Saturday,Tablet,1.0
+U0238,33,Other,Germany,Fashion,A0038,Food & Beverage,Instagram,Image,3,2,1,15.3,Monday,Mobile,0.81
+U0239,45,F,India,Fitness,A0039,Gadgets,Facebook,Video,5,1,0,15.38,Friday,Mobile,0.18
+U0240,47,M,UK,Fitness,A0040,Electronics,Instagram,Video,14,9,1,26.0,Thursday,Desktop,0.82
+U0241,45,Other,Germany,Fashion,A0041,Sportswear,Instagram,Carousel,12,3,1,6.15,Thursday,Desktop,0.56
+U0242,36,Other,Australia,Food,A0042,Gadgets,Facebook,Video,7,4,0,12.4,Monday,Tablet,0.35
+U0243,30,Other,Germany,Fashion,A0043,Food & Beverage,Facebook,Carousel,8,3,1,9.45,Saturday,Mobile,0.63
+U0244,44,Other,India,Fashion,A0044,Food & Beverage,Instagram,Image,5,5,1,13.27,Thursday,Mobile,0.97
+U0245,46,Other,India,Travel,A0045,Gadgets,Instagram,Carousel,1,1,0,24.56,Friday,Tablet,0.6
+U0246,23,M,UK,Food,A0046,Food & Beverage,Instagram,Image,11,9,1,29.52,Saturday,Tablet,0.91
+U0247,43,F,India,Tech,A0047,Electronics,Facebook,Video,4,4,0,17.18,Saturday,Tablet,0.59
+U0248,32,F,Canada,Gaming,A0048,Gadgets,Facebook,Video,1,1,1,13.06,Monday,Mobile,0.97
+U0249,27,F,Canada,Fitness,A0049,Gadgets,Facebook,Carousel,8,5,1,13.71,Saturday,Desktop,0.78
+U0250,38,M,Canada,Tech,A0050,Food & Beverage,Facebook,Image,14,5,0,20.64,Tuesday,Tablet,0.28
+U0251,33,Other,UK,Travel,A0001,Apparel,Instagram,Carousel,7,7,1,12.75,Tuesday,Mobile,0.96
+U0252,58,Other,India,Gaming,A0002,Electronics,Facebook,Video,10,6,1,21.44,Tuesday,Desktop,0.8
+U0253,22,Other,USA,Travel,A0003,Apparel,Instagram,Video,4,3,1,20.45,Thursday,Tablet,0.88
+U0254,58,F,Germany,Gaming,A0004,Luggage,Instagram,Carousel,2,1,1,14.28,Tuesday,Tablet,0.72
+U0255,37,Other,Germany,Tech,A0005,Food & Beverage,Facebook,Video,2,0,0,1.53,Tuesday,Desktop,0.01
+U0256,27,Other,India,Gaming,A0006,Luggage,Facebook,Carousel,7,6,1,19.43,Saturday,Tablet,0.93
+U0257,29,Other,UK,Gaming,A0007,Sportswear,Facebook,Image,6,6,1,2.55,Wednesday,Mobile,0.91
+U0258,49,M,UK,Gaming,A0008,Luggage,Instagram,Video,11,7,1,25.36,Thursday,Mobile,0.82
+U0259,23,Other,USA,Fashion,A0009,Sportswear,Facebook,Video,4,4,1,23.64,Friday,Tablet,1.0
+U0260,49,Other,Germany,Tech,A0010,Luggage,Facebook,Video,13,8,0,11.64,Sunday,Mobile,0.37
+U0261,46,Other,UK,Gaming,A0011,Electronics,Facebook,Video,14,0,0,2.25,Wednesday,Mobile,0.01
+U0262,46,M,UK,Fashion,A0012,Food & Beverage,Instagram,Carousel,10,10,1,18.87,Sunday,Mobile,0.99
+U0263,31,M,Germany,Fitness,A0013,Luggage,Instagram,Carousel,9,2,1,21.42,Wednesday,Tablet,0.61
+U0264,35,Other,Australia,Tech,A0014,Apparel,Instagram,Image,5,5,1,26.12,Tuesday,Mobile,1.0
+U0265,38,M,Australia,Gaming,A0015,Gadgets,Facebook,Carousel,11,4,0,11.88,Monday,Tablet,0.24
+U0266,23,F,Germany,Food,A0016,Sportswear,Instagram,Video,8,5,0,26.2,Sunday,Tablet,0.41
+U0267,23,Other,India,Food,A0017,Food & Beverage,Instagram,Image,13,8,1,29.08,Sunday,Mobile,0.81
+U0268,49,F,Canada,Fitness,A0018,Sportswear,Facebook,Carousel,14,7,0,26.93,Sunday,Mobile,0.35
+U0269,20,M,Australia,Gaming,A0019,Electronics,Facebook,Image,8,7,1,28.78,Tuesday,Tablet,0.94
+U0270,26,Other,Canada,Fashion,A0020,Sportswear,Facebook,Carousel,6,2,1,20.27,Saturday,Mobile,0.67
+U0271,21,F,Australia,Fitness,A0021,Food & Beverage,Facebook,Video,11,1,0,1.03,Thursday,Mobile,0.05
+U0272,26,Other,UK,Travel,A0022,Food & Beverage,Instagram,Image,1,1,0,29.66,Thursday,Tablet,0.6
+U0273,26,F,USA,Fashion,A0023,Gadgets,Facebook,Carousel,13,1,1,11.66,Wednesday,Mobile,0.5
+U0274,42,M,Australia,Food,A0024,Apparel,Facebook,Carousel,10,0,0,3.05,Tuesday,Desktop,0.02
+U0275,40,Other,UK,Food,A0025,Food & Beverage,Facebook,Video,10,10,1,7.3,Monday,Mobile,0.94
+U0276,25,Other,Australia,Gaming,A0026,Sportswear,Instagram,Video,13,2,1,19.69,Tuesday,Tablet,0.58
+U0277,56,Other,Australia,Travel,A0027,Sportswear,Facebook,Carousel,15,9,1,18.6,Tuesday,Tablet,0.79
+U0278,43,F,Australia,Tech,A0028,Apparel,Instagram,Video,2,0,0,2.5,Friday,Mobile,0.01
+U0279,51,M,Canada,Fitness,A0029,Apparel,Instagram,Carousel,7,5,0,6.01,Thursday,Mobile,0.39
+U0280,19,Other,USA,Tech,A0030,Sportswear,Facebook,Image,15,1,0,12.54,Wednesday,Tablet,0.1
+U0281,50,F,India,Food,A0031,Gadgets,Facebook,Carousel,9,8,0,9.05,Wednesday,Mobile,0.49
+U0282,50,M,UK,Travel,A0032,Sportswear,Instagram,Carousel,11,10,0,2.92,Saturday,Desktop,0.47
+U0283,33,M,UK,Tech,A0033,Gadgets,Facebook,Video,10,9,1,20.32,Saturday,Tablet,0.95
+U0284,29,M,USA,Food,A0034,Apparel,Facebook,Image,8,5,0,23.71,Saturday,Desktop,0.41
+U0285,28,F,UK,Food,A0035,Sportswear,Facebook,Image,6,6,1,16.19,Wednesday,Tablet,0.98
+U0286,54,Other,USA,Gaming,A0036,Gadgets,Instagram,Image,8,2,1,8.4,Monday,Tablet,0.57
+U0287,25,M,Australia,Travel,A0037,Electronics,Facebook,Image,4,0,0,2.36,Thursday,Mobile,0.01
+U0288,29,M,Germany,Food,A0038,Food & Beverage,Instagram,Image,6,1,1,21.89,Wednesday,Mobile,0.58
+U0289,54,F,USA,Travel,A0039,Food & Beverage,Facebook,Image,4,4,0,28.67,Monday,Desktop,0.6
+U0290,36,F,Canada,Tech,A0040,Luggage,Instagram,Image,6,1,1,23.75,Saturday,Tablet,0.58
+U0291,33,F,Canada,Travel,A0041,Gadgets,Facebook,Carousel,15,7,1,28.04,Monday,Mobile,0.73
+U0292,52,F,Australia,Food,A0042,Electronics,Instagram,Image,13,10,1,22.4,Wednesday,Mobile,0.88
+U0293,31,Other,UK,Gaming,A0043,Gadgets,Facebook,Image,12,4,1,27.72,Sunday,Tablet,0.67
+U0294,44,Other,Canada,Gaming,A0044,Food & Beverage,Facebook,Carousel,2,2,1,24.78,Monday,Tablet,1.0
+U0295,54,M,India,Food,A0045,Apparel,Facebook,Video,5,2,0,12.4,Sunday,Tablet,0.26
+U0296,38,F,India,Fitness,A0046,Apparel,Facebook,Image,3,0,0,0.78,Tuesday,Desktop,0.0
+U0297,47,F,India,Tech,A0047,Luggage,Instagram,Image,8,4,1,25.72,Monday,Mobile,0.75
+U0298,37,Other,Australia,Travel,A0048,Electronics,Facebook,Video,3,0,0,3.56,Wednesday,Desktop,0.02
+U0299,50,M,Australia,Fitness,A0049,Sportswear,Facebook,Image,7,7,0,16.95,Monday,Desktop,0.58
+U0300,24,M,USA,Tech,A0050,Electronics,Facebook,Image,4,3,1,19.28,Saturday,Mobile,0.87
+U0301,55,Other,Canada,Tech,A0001,Electronics,Facebook,Image,15,14,0,3.67,Sunday,Desktop,0.49
+U0302,25,M,India,Tech,A0002,Apparel,Instagram,Carousel,7,7,1,20.81,Tuesday,Desktop,1.0
+U0303,31,M,Canada,Fitness,A0003,Gadgets,Facebook,Image,10,9,0,19.77,Thursday,Desktop,0.55
+U0304,53,F,USA,Tech,A0004,Sportswear,Instagram,Image,7,3,0,24.12,Tuesday,Tablet,0.31
+U0305,52,M,India,Food,A0005,Sportswear,Instagram,Carousel,13,7,1,17.4,Wednesday,Desktop,0.76
+U0306,35,M,USA,Fitness,A0006,Luggage,Facebook,Image,15,8,1,29.75,Friday,Desktop,0.77
+U0307,55,M,UK,Tech,A0007,Apparel,Facebook,Video,9,0,0,3.82,Tuesday,Tablet,0.02
+U0308,42,F,UK,Fashion,A0008,Apparel,Instagram,Carousel,12,5,0,1.82,Saturday,Desktop,0.22
+U0309,54,Other,UK,Travel,A0009,Apparel,Instagram,Carousel,5,1,1,3.62,Tuesday,Tablet,0.52
+U0310,32,M,Germany,Gaming,A0010,Electronics,Instagram,Carousel,4,1,1,6.15,Sunday,Desktop,0.56
+U0311,21,M,UK,Travel,A0011,Food & Beverage,Facebook,Image,14,8,0,28.86,Wednesday,Tablet,0.39
+U0312,60,F,Germany,Tech,A0012,Sportswear,Instagram,Video,3,1,0,13.67,Saturday,Desktop,0.24
+U0313,59,F,UK,Food,A0013,Luggage,Instagram,Image,11,9,0,11.97,Saturday,Tablet,0.47
+U0314,36,M,UK,Food,A0014,Electronics,Instagram,Carousel,1,0,0,3.01,Sunday,Tablet,0.02
+U0315,32,Other,Germany,Tech,A0015,Gadgets,Facebook,Video,12,1,1,29.49,Tuesday,Tablet,0.54
+U0316,23,Other,Australia,Food,A0016,Food & Beverage,Instagram,Video,1,1,1,21.1,Wednesday,Desktop,1.0
+U0317,24,Other,USA,Tech,A0017,Gadgets,Instagram,Carousel,7,2,0,15.3,Thursday,Desktop,0.22
+U0318,52,F,USA,Gaming,A0018,Luggage,Facebook,Image,8,1,0,1.97,Monday,Desktop,0.07
+U0319,34,M,USA,Fitness,A0019,Apparel,Instagram,Image,12,1,0,27.05,Monday,Desktop,0.14
+U0320,56,Other,India,Food,A0020,Electronics,Instagram,Carousel,3,3,1,3.94,Tuesday,Mobile,0.92
+U0321,44,Other,Germany,Food,A0021,Food & Beverage,Instagram,Carousel,5,2,1,2.44,Friday,Tablet,0.61
+U0322,49,M,USA,Fitness,A0022,Electronics,Instagram,Image,5,5,0,14.93,Monday,Mobile,0.57
+U0323,31,M,Australia,Fitness,A0023,Electronics,Instagram,Image,5,3,1,26.95,Wednesday,Mobile,0.8
+U0324,59,Other,India,Fashion,A0024,Sportswear,Instagram,Video,3,3,1,13.75,Wednesday,Mobile,0.97
+U0325,35,Other,USA,Fashion,A0025,Food & Beverage,Facebook,Image,11,5,0,13.01,Sunday,Tablet,0.29
+U0326,32,Other,USA,Gaming,A0026,Luggage,Instagram,Carousel,11,7,0,7.83,Wednesday,Mobile,0.36
+U0327,43,Other,USA,Travel,A0027,Luggage,Facebook,Image,13,7,1,29.55,Tuesday,Mobile,0.77
+U0328,26,M,India,Tech,A0028,Food & Beverage,Instagram,Image,14,10,1,18.26,Wednesday,Tablet,0.85
+U0329,22,M,India,Travel,A0029,Gadgets,Instagram,Video,9,7,0,1.36,Saturday,Tablet,0.4
+U0330,55,Other,India,Tech,A0030,Gadgets,Facebook,Image,10,9,0,28.98,Monday,Mobile,0.55
+U0331,54,M,Canada,Travel,A0031,Sportswear,Instagram,Video,7,7,0,14.72,Tuesday,Desktop,0.57
+U0332,43,M,Germany,Travel,A0032,Food & Beverage,Instagram,Image,7,5,0,2.43,Thursday,Desktop,0.37
+U0333,41,M,Canada,Fitness,A0033,Sportswear,Instagram,Video,14,11,0,29.2,Tuesday,Mobile,0.49
+U0334,37,Other,India,Fitness,A0034,Sportswear,Instagram,Carousel,11,1,1,7.13,Sunday,Desktop,0.48
+U0335,49,Other,Canada,Tech,A0035,Luggage,Facebook,Image,5,5,0,4.93,Sunday,Tablet,0.52
+U0336,54,M,UK,Fashion,A0036,Apparel,Facebook,Image,1,1,1,11.45,Tuesday,Desktop,0.96
+U0337,41,F,Germany,Gaming,A0037,Food & Beverage,Facebook,Carousel,1,0,0,1.86,Friday,Desktop,0.01
+U0338,29,F,Germany,Travel,A0038,Sportswear,Instagram,Image,14,14,1,25.1,Monday,Desktop,1.0
+U0339,19,F,USA,Fashion,A0039,Luggage,Facebook,Image,11,3,0,8.8,Thursday,Tablet,0.18
+U0340,19,Other,USA,Gaming,A0040,Apparel,Facebook,Carousel,13,0,0,1.12,Friday,Desktop,0.01
+U0341,59,F,India,Gaming,A0041,Sportswear,Instagram,Video,4,3,1,16.1,Friday,Desktop,0.86
+U0342,55,M,USA,Travel,A0042,Food & Beverage,Instagram,Carousel,11,9,0,9.66,Monday,Desktop,0.46
+U0343,22,F,Canada,Food,A0043,Sportswear,Instagram,Video,11,11,0,19.89,Tuesday,Mobile,0.6
+U0344,51,M,USA,Travel,A0044,Gadgets,Instagram,Carousel,3,0,0,3.28,Wednesday,Desktop,0.02
+U0345,44,F,India,Food,A0045,Electronics,Facebook,Video,12,11,1,16.5,Sunday,Desktop,0.94
+U0346,60,F,Germany,Fitness,A0046,Apparel,Facebook,Video,2,1,1,8.5,Sunday,Tablet,0.69
+U0347,29,Other,Canada,Food,A0047,Electronics,Facebook,Video,4,2,1,26.72,Wednesday,Desktop,0.75
+U0348,55,F,India,Tech,A0048,Gadgets,Facebook,Carousel,10,9,0,3.07,Tuesday,Tablet,0.47
+U0349,25,Other,India,Travel,A0049,Sportswear,Instagram,Image,14,13,1,29.78,Wednesday,Desktop,0.96
+U0350,54,F,UK,Fitness,A0050,Food & Beverage,Facebook,Image,8,5,0,6.13,Saturday,Mobile,0.34
+U0351,18,F,Canada,Fashion,A0001,Apparel,Facebook,Video,13,12,0,4.75,Thursday,Tablet,0.49
+U0352,45,F,India,Gaming,A0002,Gadgets,Facebook,Image,9,3,0,28.55,Wednesday,Tablet,0.27
+U0353,30,M,Australia,Tech,A0003,Food & Beverage,Facebook,Image,12,5,1,3.98,Friday,Tablet,0.63
+U0354,37,M,USA,Tech,A0004,Sportswear,Instagram,Video,12,8,0,10.8,Saturday,Mobile,0.39
+U0355,39,F,Canada,Fashion,A0005,Apparel,Instagram,Image,4,1,0,4.8,Saturday,Mobile,0.15
+U0356,55,Other,UK,Tech,A0006,Sportswear,Facebook,Video,15,8,0,19.07,Friday,Mobile,0.36
+U0357,60,M,Australia,Tech,A0007,Electronics,Facebook,Video,8,6,1,8.33,Saturday,Mobile,0.82
+U0358,31,Other,Australia,Food,A0008,Electronics,Instagram,Video,11,1,0,8.83,Friday,Tablet,0.09
+U0359,26,F,USA,Travel,A0009,Food & Beverage,Facebook,Video,2,0,0,2.49,Friday,Mobile,0.01
+U0360,34,Other,UK,Fitness,A0010,Food & Beverage,Instagram,Video,3,0,0,2.74,Tuesday,Tablet,0.01
+U0361,48,F,UK,Tech,A0011,Electronics,Facebook,Image,14,9,0,5.33,Monday,Tablet,0.35
+U0362,22,Other,Australia,Tech,A0012,Sportswear,Facebook,Video,5,2,1,3.89,Tuesday,Mobile,0.62
+U0363,36,F,Australia,Fitness,A0013,Gadgets,Facebook,Image,14,12,0,1.28,Tuesday,Tablet,0.43
+U0364,59,M,Canada,Fitness,A0014,Gadgets,Instagram,Carousel,2,1,0,6.3,Thursday,Desktop,0.28
+U0365,47,F,India,Food,A0015,Gadgets,Instagram,Carousel,15,5,1,21.19,Monday,Mobile,0.67
+U0366,24,F,Germany,Gaming,A0016,Luggage,Instagram,Image,10,6,0,18.73,Sunday,Tablet,0.39
+U0367,26,F,India,Tech,A0017,Gadgets,Instagram,Image,2,1,0,1.36,Sunday,Tablet,0.26
+U0368,51,Other,Germany,Food,A0018,Luggage,Facebook,Carousel,14,5,0,20.96,Friday,Mobile,0.28
+U0369,45,Other,Australia,Fashion,A0019,Gadgets,Instagram,Carousel,11,10,1,25.33,Friday,Tablet,0.95
+U0370,21,M,Australia,Fashion,A0020,Luggage,Instagram,Video,14,2,1,15.26,Tuesday,Desktop,0.55
+U0371,35,M,Germany,Fashion,A0021,Luggage,Instagram,Video,14,3,1,13.88,Friday,Desktop,0.58
+U0372,23,F,India,Fitness,A0022,Electronics,Instagram,Carousel,11,0,0,0.51,Thursday,Mobile,0.0
+U0373,53,Other,USA,Tech,A0023,Luggage,Instagram,Carousel,9,3,0,14.23,Wednesday,Desktop,0.24
+U0374,21,M,India,Fitness,A0024,Luggage,Instagram,Carousel,11,5,0,4.31,Sunday,Tablet,0.25
+U0375,32,M,Canada,Fitness,A0025,Food & Beverage,Instagram,Carousel,9,5,0,2.33,Tuesday,Desktop,0.29
+U0376,26,Other,Australia,Food,A0026,Gadgets,Facebook,Video,10,3,1,27.98,Thursday,Mobile,0.65
+U0377,47,M,Australia,Fitness,A0027,Electronics,Instagram,Image,15,3,0,14.06,Saturday,Tablet,0.17
+U0378,50,M,India,Tech,A0028,Luggage,Facebook,Carousel,15,13,0,15.01,Friday,Mobile,0.51
+U0379,55,M,Australia,Fashion,A0029,Electronics,Instagram,Carousel,10,9,0,15.62,Thursday,Desktop,0.53
+U0380,56,Other,UK,Fitness,A0030,Gadgets,Instagram,Video,8,2,1,18.47,Saturday,Tablet,0.62
+U0381,37,Other,Germany,Fitness,A0031,Food & Beverage,Facebook,Image,4,4,0,20.91,Saturday,Mobile,0.6
+U0382,59,M,Germany,Travel,A0032,Food & Beverage,Instagram,Carousel,2,1,0,17.9,Saturday,Tablet,0.34
+U0383,44,Other,Australia,Travel,A0033,Sportswear,Instagram,Image,9,1,1,5.21,Saturday,Mobile,0.48
+U0384,30,F,UK,Fitness,A0034,Food & Beverage,Instagram,Image,14,0,0,3.45,Wednesday,Mobile,0.02
+U0385,52,M,Canada,Gaming,A0035,Electronics,Facebook,Carousel,11,8,1,15.82,Sunday,Tablet,0.84
+U0386,36,Other,Australia,Tech,A0036,Gadgets,Instagram,Video,13,10,1,17.01,Monday,Tablet,0.87
+U0387,34,M,Germany,Gaming,A0037,Apparel,Instagram,Carousel,9,9,1,22.02,Tuesday,Desktop,1.0
+U0388,46,M,Australia,Tech,A0038,Apparel,Facebook,Carousel,9,1,1,13.43,Friday,Desktop,0.52
+U0389,26,M,Germany,Fitness,A0039,Electronics,Instagram,Video,12,2,1,27.93,Friday,Mobile,0.58
+U0390,58,Other,Australia,Fitness,A0040,Gadgets,Instagram,Image,13,11,1,7.38,Tuesday,Tablet,0.86
+U0391,22,Other,UK,Gaming,A0041,Luggage,Instagram,Image,6,1,0,20.24,Wednesday,Desktop,0.18
+U0392,36,M,Germany,Travel,A0042,Gadgets,Facebook,Image,11,5,1,27.23,Friday,Tablet,0.73
+U0393,33,M,Australia,Fitness,A0043,Gadgets,Facebook,Video,5,4,0,1.72,Friday,Desktop,0.41
+U0394,50,Other,India,Gaming,A0044,Electronics,Instagram,Carousel,4,2,0,28.5,Tuesday,Tablet,0.35
+U0395,52,M,Australia,Tech,A0045,Apparel,Facebook,Carousel,7,1,1,25.03,Saturday,Desktop,0.57
+U0396,59,M,Australia,Food,A0046,Apparel,Facebook,Video,12,5,1,3.12,Tuesday,Desktop,0.62
+U0397,53,M,Germany,Fashion,A0047,Sportswear,Instagram,Video,8,6,1,1.49,Saturday,Mobile,0.78
+U0398,52,M,Australia,Food,A0048,Luggage,Facebook,Carousel,10,0,0,3.5,Monday,Desktop,0.02
+U0399,50,M,Canada,Food,A0049,Sportswear,Facebook,Video,13,7,1,24.84,Monday,Desktop,0.77
+U0400,28,Other,UK,Fashion,A0050,Food & Beverage,Instagram,Carousel,5,5,1,20.64,Sunday,Tablet,1.0
+U0401,59,F,USA,Travel,A0001,Luggage,Facebook,Image,1,0,0,2.86,Thursday,Tablet,0.01
+U0402,53,M,Canada,Fashion,A0002,Food & Beverage,Instagram,Image,7,2,1,7.4,Sunday,Desktop,0.58
+U0403,30,M,UK,Food,A0003,Luggage,Facebook,Carousel,8,8,1,20.48,Wednesday,Mobile,1.0
+U0404,30,Other,Germany,Gaming,A0004,Sportswear,Instagram,Image,11,10,1,9.27,Monday,Mobile,0.9
+U0405,38,F,India,Fitness,A0005,Luggage,Instagram,Carousel,10,2,0,11.57,Wednesday,Desktop,0.16
+U0406,28,M,Canada,Fashion,A0006,Apparel,Instagram,Video,14,5,1,22.26,Thursday,Desktop,0.68
+U0407,46,F,Canada,Gaming,A0007,Luggage,Facebook,Image,11,9,1,9.14,Sunday,Mobile,0.85
+U0408,52,M,Canada,Food,A0008,Food & Beverage,Facebook,Carousel,2,0,0,4.25,Saturday,Mobile,0.02
+U0409,55,Other,India,Travel,A0009,Apparel,Facebook,Carousel,5,4,0,16.65,Saturday,Mobile,0.48
+U0410,41,F,UK,Travel,A0010,Food & Beverage,Instagram,Image,8,8,0,12.51,Friday,Mobile,0.56
+U0411,60,M,Germany,Food,A0011,Apparel,Facebook,Video,3,1,0,17.41,Sunday,Mobile,0.25
+U0412,48,F,USA,Fashion,A0012,Gadgets,Facebook,Image,5,2,1,20.39,Friday,Desktop,0.7
+U0413,42,F,India,Tech,A0013,Electronics,Instagram,Image,12,8,0,8.93,Saturday,Desktop,0.38
+U0414,55,Other,Germany,Fashion,A0014,Gadgets,Instagram,Video,10,10,0,3.26,Wednesday,Desktop,0.52
+U0415,32,Other,India,Fitness,A0015,Sportswear,Instagram,Video,15,0,0,2.51,Tuesday,Desktop,0.01
+U0416,28,M,USA,Travel,A0016,Food & Beverage,Instagram,Image,3,1,1,18.46,Sunday,Mobile,0.66
+U0417,60,M,India,Fitness,A0017,Food & Beverage,Facebook,Video,11,7,1,18.13,Saturday,Desktop,0.81
+U0418,19,M,USA,Fashion,A0018,Luggage,Facebook,Image,11,8,1,17.6,Monday,Mobile,0.85
+U0419,34,M,Germany,Gaming,A0019,Luggage,Facebook,Carousel,12,10,0,28.47,Tuesday,Desktop,0.52
+U0420,56,F,India,Fashion,A0020,Apparel,Instagram,Carousel,3,1,0,15.81,Tuesday,Tablet,0.25
+U0421,39,F,Germany,Travel,A0021,Electronics,Facebook,Video,7,2,1,6.87,Sunday,Tablet,0.58
+U0422,44,M,Germany,Tech,A0022,Apparel,Instagram,Carousel,10,0,0,4.39,Friday,Tablet,0.02
+U0423,25,M,India,Food,A0023,Apparel,Facebook,Carousel,11,6,0,11.74,Monday,Tablet,0.33
+U0424,51,F,UK,Gaming,A0024,Gadgets,Instagram,Carousel,13,11,0,25.28,Friday,Mobile,0.52
+U0425,45,M,Canada,Gaming,A0025,Apparel,Facebook,Video,10,8,1,6.48,Saturday,Tablet,0.83
+U0426,18,Other,Germany,Tech,A0026,Luggage,Facebook,Video,11,3,0,10.16,Wednesday,Mobile,0.19
+U0427,27,F,Australia,Travel,A0027,Sportswear,Instagram,Carousel,7,5,0,29.76,Thursday,Mobile,0.46
+U0428,44,Other,Germany,Gaming,A0028,Apparel,Instagram,Carousel,9,7,1,9.89,Wednesday,Tablet,0.84
+U0429,43,Other,UK,Food,A0029,Electronics,Facebook,Video,13,11,0,3.91,Friday,Desktop,0.44
+U0430,39,Other,Germany,Food,A0030,Food & Beverage,Facebook,Image,7,0,0,4.02,Sunday,Mobile,0.02
+U0431,48,Other,India,Tech,A0031,Electronics,Instagram,Image,6,0,0,3.05,Saturday,Desktop,0.02
+U0432,43,Other,Australia,Travel,A0032,Sportswear,Facebook,Image,11,7,1,6.85,Saturday,Tablet,0.75
+U0433,36,M,USA,Travel,A0033,Luggage,Facebook,Carousel,3,0,0,1.8,Saturday,Mobile,0.01
+U0434,28,M,Canada,Gaming,A0034,Sportswear,Instagram,Video,10,3,0,22.37,Monday,Mobile,0.25
+U0435,53,F,Australia,Travel,A0035,Luggage,Instagram,Video,14,4,1,28.93,Thursday,Desktop,0.64
+U0436,54,M,Canada,Fashion,A0036,Gadgets,Facebook,Carousel,2,2,1,28.46,Sunday,Tablet,1.0
+U0437,34,Other,Germany,Fitness,A0037,Food & Beverage,Instagram,Video,10,7,0,22.97,Sunday,Desktop,0.45
+U0438,47,Other,USA,Gaming,A0038,Electronics,Instagram,Image,7,3,0,7.67,Wednesday,Desktop,0.25
+U0439,40,Other,Germany,Tech,A0039,Food & Beverage,Instagram,Image,5,0,0,1.99,Saturday,Desktop,0.01
+U0440,22,Other,UK,Gaming,A0040,Sportswear,Instagram,Image,15,8,1,22.64,Tuesday,Desktop,0.77
+U0441,30,M,Australia,Fashion,A0041,Sportswear,Facebook,Image,4,1,0,11.32,Sunday,Mobile,0.18
+U0442,25,M,Australia,Food,A0042,Gadgets,Facebook,Carousel,1,1,1,10.15,Friday,Desktop,0.95
+U0443,49,M,Germany,Fitness,A0043,Gadgets,Facebook,Carousel,3,0,0,2.63,Thursday,Desktop,0.01
+U0444,52,M,Germany,Fitness,A0044,Gadgets,Facebook,Video,2,2,0,10.15,Monday,Mobile,0.55
+U0445,31,F,Germany,Tech,A0045,Sportswear,Instagram,Carousel,14,4,1,8.62,Wednesday,Desktop,0.59
+U0446,57,F,Canada,Fashion,A0046,Gadgets,Instagram,Image,7,5,1,12.62,Thursday,Mobile,0.82
+U0447,54,M,Germany,Food,A0047,Apparel,Facebook,Carousel,5,1,0,25.83,Tuesday,Mobile,0.2
+U0448,27,F,USA,Fashion,A0048,Gadgets,Instagram,Image,15,10,0,9.7,Friday,Tablet,0.38
+U0449,21,F,USA,Food,A0049,Apparel,Facebook,Image,14,4,1,19.27,Thursday,Tablet,0.64
+U0450,39,F,Canada,Fitness,A0050,Luggage,Instagram,Video,1,1,1,26.15,Friday,Mobile,1.0
+U0451,54,Other,Australia,Food,A0001,Luggage,Facebook,Video,6,2,0,15.14,Saturday,Desktop,0.24
+U0452,23,F,Germany,Fitness,A0002,Gadgets,Facebook,Image,11,5,1,18.76,Thursday,Mobile,0.72
+U0453,23,M,Canada,Fashion,A0003,Sportswear,Instagram,Carousel,5,5,1,19.69,Wednesday,Desktop,1.0
+U0454,41,Other,Germany,Travel,A0004,Gadgets,Instagram,Image,3,0,0,0.63,Tuesday,Tablet,0.0
+U0455,34,Other,Australia,Food,A0005,Electronics,Facebook,Image,7,1,1,28.17,Thursday,Tablet,0.57
+U0456,21,M,India,Travel,A0006,Electronics,Facebook,Video,10,2,1,28.02,Thursday,Desktop,0.6
+U0457,32,M,Australia,Fitness,A0007,Gadgets,Facebook,Image,9,2,1,20.24,Sunday,Desktop,0.61
+U0458,48,F,Germany,Fitness,A0008,Luggage,Instagram,Image,12,8,1,18.33,Saturday,Tablet,0.82
+U0459,58,Other,India,Travel,A0009,Food & Beverage,Instagram,Video,8,8,1,3.6,Wednesday,Desktop,0.92
+U0460,44,F,UK,Fitness,A0010,Electronics,Facebook,Carousel,14,12,0,10.97,Thursday,Tablet,0.48
+U0461,18,Other,India,Gaming,A0011,Sportswear,Facebook,Video,13,4,0,24.11,Friday,Desktop,0.25
+U0462,30,F,Germany,Gaming,A0012,Gadgets,Facebook,Image,12,11,0,25.02,Tuesday,Desktop,0.56
+U0463,23,F,Australia,Fashion,A0013,Luggage,Instagram,Video,11,11,0,8.8,Tuesday,Mobile,0.54
+U0464,29,M,Canada,Tech,A0014,Food & Beverage,Instagram,Carousel,8,4,0,15.27,Wednesday,Mobile,0.33
+U0465,27,M,Germany,Tech,A0015,Apparel,Facebook,Video,5,1,0,22.09,Tuesday,Mobile,0.2
+U0466,27,M,India,Fashion,A0016,Sportswear,Instagram,Video,13,12,1,11.77,Saturday,Mobile,0.92
+U0467,39,M,UK,Tech,A0017,Sportswear,Instagram,Image,9,7,1,26.98,Wednesday,Desktop,0.89
+U0468,18,M,Australia,Fashion,A0018,Gadgets,Instagram,Image,12,0,0,1.0,Saturday,Mobile,0.01
+U0469,51,Other,UK,Gaming,A0019,Gadgets,Instagram,Video,3,0,0,3.72,Friday,Tablet,0.02
+U0470,25,F,India,Food,A0020,Sportswear,Facebook,Video,15,1,0,7.32,Monday,Mobile,0.07
+U0471,58,F,Canada,Tech,A0021,Apparel,Instagram,Carousel,2,1,0,1.26,Monday,Tablet,0.26
+U0472,48,Other,Germany,Fashion,A0022,Sportswear,Facebook,Image,3,3,1,18.94,Sunday,Tablet,0.99
+U0473,21,M,Canada,Food,A0023,Apparel,Facebook,Image,8,3,1,17.19,Saturday,Desktop,0.67
+U0474,46,Other,UK,Tech,A0024,Food & Beverage,Instagram,Video,12,2,1,2.15,Saturday,Desktop,0.49
+U0475,53,F,Germany,Food,A0025,Gadgets,Facebook,Carousel,3,2,1,14.58,Sunday,Tablet,0.81
+U0476,53,M,USA,Travel,A0026,Apparel,Instagram,Video,14,4,0,14.17,Sunday,Tablet,0.21
+U0477,50,F,Australia,Fashion,A0027,Electronics,Instagram,Carousel,4,2,0,20.09,Friday,Desktop,0.35
+U0478,30,Other,Australia,Gaming,A0028,Luggage,Facebook,Carousel,5,2,1,10.34,Monday,Tablet,0.65
+U0479,60,M,USA,Fashion,A0029,Apparel,Facebook,Image,2,1,1,1.92,Saturday,Desktop,0.66
+U0480,60,F,Germany,Travel,A0030,Food & Beverage,Instagram,Image,6,1,0,3.06,Tuesday,Tablet,0.1
+U0481,49,M,India,Food,A0031,Electronics,Instagram,Carousel,12,6,0,24.03,Monday,Tablet,0.35
+U0482,35,Other,USA,Food,A0032,Electronics,Instagram,Image,4,4,1,22.03,Friday,Desktop,1.0
+U0483,30,M,Germany,Food,A0033,Apparel,Facebook,Carousel,12,8,1,4.06,Saturday,Tablet,0.75
+U0484,40,Other,India,Food,A0034,Food & Beverage,Instagram,Image,3,1,0,15.64,Saturday,Mobile,0.24
+U0485,52,Other,India,Fitness,A0035,Sportswear,Instagram,Video,7,6,0,10.38,Tuesday,Tablet,0.48
+U0486,52,M,India,Travel,A0036,Food & Beverage,Instagram,Video,8,7,0,1.01,Monday,Desktop,0.44
+U0487,56,M,Germany,Fashion,A0037,Sportswear,Facebook,Video,4,1,0,1.63,Sunday,Tablet,0.13
+U0488,35,Other,Germany,Travel,A0038,Luggage,Facebook,Image,1,1,1,5.01,Wednesday,Tablet,0.93
+U0489,33,M,Canada,Fitness,A0039,Electronics,Instagram,Carousel,15,6,0,21.98,Sunday,Desktop,0.3
+U0490,29,F,Australia,Food,A0040,Luggage,Facebook,Carousel,11,4,1,24.44,Thursday,Mobile,0.68
+U0491,21,F,Canada,Gaming,A0041,Gadgets,Facebook,Image,12,10,0,27.93,Saturday,Tablet,0.52
+U0492,42,M,Canada,Travel,A0042,Electronics,Instagram,Carousel,10,2,1,21.24,Tuesday,Mobile,0.6
+U0493,43,F,Germany,Travel,A0043,Luggage,Facebook,Image,7,4,0,5.29,Wednesday,Mobile,0.31
+U0494,48,Other,Australia,Tech,A0044,Luggage,Instagram,Video,2,1,0,23.44,Tuesday,Mobile,0.35
+U0495,48,Other,UK,Gaming,A0045,Gadgets,Facebook,Carousel,10,8,1,3.08,Sunday,Desktop,0.82
+U0496,38,Other,Germany,Tech,A0046,Electronics,Instagram,Video,6,2,1,10.99,Saturday,Mobile,0.62
+U0497,37,M,Canada,Travel,A0047,Gadgets,Facebook,Video,1,0,0,1.0,Wednesday,Mobile,0.01
+U0498,23,M,Australia,Tech,A0048,Apparel,Facebook,Video,1,1,0,4.23,Thursday,Desktop,0.52
+U0499,19,F,UK,Food,A0049,Luggage,Facebook,Image,9,8,0,16.92,Friday,Tablet,0.53
+U0500,27,Other,Australia,Food,A0050,Electronics,Instagram,Carousel,15,1,1,2.74,Tuesday,Tablet,0.45

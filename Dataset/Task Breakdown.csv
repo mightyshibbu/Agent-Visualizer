@@ -1,0 +1,18 @@
+indexS.no.Task TitleDescriptionStory PointHoursAssigned toPriority                        
+01Initialize Your Project StructureCreate a new Git repository and establish a modular directory layout (data/, src/, notebooks/, models/, docker/) with placeholders for DVC and MLflow.12Member 1HIGH  
+12Set Up Virtual Environment and Install DependenciesCreate and activate a Python virtual environment and populate requirements.txt with core libraries (pandas, scikit-learn, dvc, mlflow, fastapi, uvicorn).12Member 1HIGH  
+23Configure DVC for Data VersioningRun dvc init to enable DVC, add raw dataset for tracking, define preprocessing stage in dvc.yaml, and configure a DVC remote.23Member 1HIGH  
+34Implement Data Preprocessing PipelineIn src/data_preprocessing.py load raw CSV, handle missing values, apply feature transformations, and register as a DVC pipeline stage.36Member 1HIGH      
+45Configure MLflow Experiment TrackingSet tracking URI and experiment name in training scripts, wrap routines in mlflow.start_run to log parameters, metrics, and artifacts.23Member 2HIGH     
+56Develop Baseline Linear Regression ModelImplement Linear Regression training in src/model_training.py with hyperparameter logging via mlflow.log_params and mlflow.log_metrics.35Member 2HIGH          
+67Develop Decision Tree Regressor with Hyperparameter SearchCreate a Decision Tree pipeline with configurable depth and split criteria, perform grid or randomized search, logging each run in MLflow.36Member 2HIGH
+78Compare Models and Register Best ModelUse the MLflow UI to compare runs, identify the best-performing model, and register it in the MLflow Model Registry.12Member 2MEDIUM   
+89Define Pydantic Schemas and API SkeletonIn src/schemas.py define HousingFeatures and PredictionResponse BaseModel schemas; scaffold FastAPI app with POST /predict route.12Member 3HIGH       
+910Implement Prediction Logic and Model LoadingWithin the /predict endpoint load the registered model via mlflow.pyfunc.load_model, deserialize input into DataFrame, and return prediction.24Member 3HIGH     
+1011Write API Tests and DocumentationCreate pytest integration tests to validate endpoints in tests/test_api.py and use FastAPI OpenAPI support for live docs at /docs.24Member 3MEDIUM    
+1112Dockerize the API ServiceWrite a Dockerfile to install dependencies, copy source, expose port 8000, and run uvicorn src.api:app, then build and test container locally.23Member 3HIGH   
+1213Set Up Linting and Testing WorkflowConfigure GitHub Actions to run on push: checkout code, setup Python, install dependencies, run flake8/black, and execute pytest.12SharedMEDIUM     
+1314Configure Docker Build and Push WorkflowExtend CI workflow to build Docker image, authenticate with Docker Hub, and push the image using commit SHA or tags.12SharedMEDIUM   
+1415Implement Request and Response LoggingIntegrate Python logging into src/api.py to capture incoming requests and outputs, configure rotating file handler or SQLite storage.24SharedMEDIUM      
+1516Expose Prometheus-style Metrics EndpointAdd GET /metrics endpoint exporting request counts and latency histograms using prometheus_client instrumentation.24SharedMEDIUM            
+1617Set Up Grafana Dashboard (Optional)Deploy Grafana, connect to Prometheus endpoint, and create dashboards for request rate, error rate, and latency visualization.13SharedLOW       
